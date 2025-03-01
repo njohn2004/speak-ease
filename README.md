@@ -1,12 +1,17 @@
-# Slurred-Speech-Recognition-DeepLearning
+# Speak Ease
 
-For Speech-to-Text problems, our training data consists of:<br>
-![img](https://user-images.githubusercontent.com/42781233/135642643-0c3c507a-5a10-4ab6-8445-441091bb7e13.png)
-
+Real-time web application for accurate speech recognition, tailored for patients suffering from dysarthria (speech impediment)
  
 
 # Problem Statement
-The purpose of this project is to fine tune the the automatic speech recognition model or apply the technique of transfer learning so that it can convert atypical speech (voice of people with speech impairments) into text.
+Dysarthria traps thoughts in a body struggling to speak, isolating individuals from society and straining relationships. Every conversation becomes a battle, eroding confidence and independence.
+
+Dysarthria severely impacts communication, affecting quality of life and independence.
+Affects millions globally, including stroke victims(41-53%), Parkinson's patients(44-88%), and those suffering from other neurological conditions
+Growing issue due to aging population and increasing neurological disorders
+
+This solution can significantly improve communication and quality of life for a large, under-served population, making it a crucial healthcare innovation.
+
 ## High level Solution Overview
 We will start with the state of the art end to end speech Recognition model with high accuracy. This high quality ASR model will be trained on hundreds of hours of typical or standard speech with no impairements. After we achieve high accuracy for the end to end model, then we will start fine-tuning parts of the model to an individual with speech impairement.<br>
 So our main aproach is training a base model on a large dataset of normal speech and then training a personalised model using a much smaller slurred speech dataset. We can use tranfer learning for fine tuning parts of our base model.
